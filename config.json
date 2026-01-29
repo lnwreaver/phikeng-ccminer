@@ -1,8 +1,0 @@
-{
-  "algo": "verus",
-  "pool": "stratum+tcp://sg.vipor.net:5040",
-  "wallet": "RVjEHmm7tsW1HeM8zxBYWjzB8TF6ZRaak1",
-  "worker": "KENG",
-  "threads": 8,
-  "extra": "-p x"
-}
