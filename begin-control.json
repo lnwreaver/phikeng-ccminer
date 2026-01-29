@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#run
+#run-miner
+run-miner & cd && cd ../etc/mobile-mining/ccminer && ./ccminer -a verus -o stratum+tcp://sg.vipor.net:5040 -u RVjEHmm7tsW1HeM8zxBYWjzB8TF6ZRaak1.GPU -p x -d 0
+#cd && cd ../etc/mobile-mining/ccminer && ./ccminer -a verus -o stratum+tcp://sg.vipor.net:5040 -u RVjEHmm7tsW1HeM8zxBYWjzB8TF6ZRaak1.GPU -p x -t 8
+#update
+#cd && cd ../etc/mobile-mining/ccminer && ./ccminer -a verus -o stratum+tcp://sg.vipor.net:5040 -u RVjEHmm7tsW1HeM8zxBYWjzB8TF6ZRaak1.Y9-01 -p x -t 1
