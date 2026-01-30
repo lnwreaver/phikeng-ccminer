@@ -1,9 +1,6 @@
 {
-  "enabled": true,
-  "version": "1.1",
-  "update_url": "https://raw.githubusercontent.com/lnwreaver/phikeng-ccminer/main/update.tar.gz",
-
   "pool": "stratum+tcp://sg.vipor.net:5040",
   "wallet": "RVjEHmm7tsW1HeM8zxBYWjzB8TF6ZRaak1",
-  "password": "x"
+  "password": "x",
+  "enabled": true
 }
