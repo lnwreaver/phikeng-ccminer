@@ -1,18 +1,25 @@
 #!/bin/bash
-# ===============================
-# GM VERUS FARM - WATCHDOG
-# ===============================
+# ================================
+# GM VERUS FARM - watchdog.sh (FINAL)
+# ================================
 
 BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
-RUNNER="$BASE_DIR/run.sh"
-LOGDIR="$BASE_DIR/logs"
+RUN="$BASE_DIR/run.sh"
+LOG="$BASE_DIR/logs/watchdog.log"
 
-mkdir -p "$LOGDIR"
+INTERVAL=20   # วินาที
+
+mkdir -p "$BASE_DIR/logs"
+
+echo "[WATCHDOG] Started at $(date)" >> "$LOG"
 
 while true; do
-  if ! pgrep -f "$BASE_DIR/bin/ccminer" > /dev/null; then
-    echo "[WATCHDOG] ccminer not running, starting..." | tee -a "$LOGDIR/watchdog.log"
-    bash "$RUNNER" >> "$LOGDIR/miner.log" 2>&1
+  if pgrep -f "$BASE_DIR/bin/ccminer" > /dev/null; then
+    sleep "$INTERVAL"
+    continue
   fi
-  sleep 10
+
+  echo "[WATCHDOG] ccminer not running, restarting..." >> "$LOG"
+  bash "$RUN" &
+  sleep "$INTERVAL"
 done

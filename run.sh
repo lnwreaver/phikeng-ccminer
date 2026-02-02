@@ -1,25 +1,44 @@
 #!/bin/bash
-BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
-CONFIG="$BASE_DIR/config.json"
+# ================================
+# GM VERUS FARM - run.sh (FINAL)
+# ================================
 
-if [ ! -f "$CONFIG" ]; then
-  echo "[ERROR] config.json not found"
+BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
+BIN="$BASE_DIR/bin/ccminer"
+CONF="$BASE_DIR/config.json"
+LOG="$BASE_DIR/logs/miner.log"
+
+THREADS=8
+
+mkdir -p "$BASE_DIR/logs"
+
+if [ ! -x "$BIN" ]; then
+  echo "[RUN] ccminer not found or not executable" | tee -a "$LOG"
   exit 1
 fi
 
-ENABLE=$(jq -r '.enable' "$CONFIG")
-POOL=$(jq -r '.pool' "$CONFIG")
-WALLET=$(jq -r '.wallet' "$CONFIG")
-PASS=$(jq -r '.password' "$CONFIG")
-
-if [ "$ENABLE" != "true" ]; then
-  echo "[INFO] Mining disabled by config"
-  exit 0
+if [ ! -f "$CONF" ]; then
+  echo "[RUN] config.json not found" | tee -a "$LOG"
+  exit 1
 fi
 
-exec "$BASE_DIR/bin/ccminer" \
-  -a verus \
+POOL=$(jq -r '.pool' "$CONF")
+WALLET=$(jq -r '.wallet' "$CONF")
+PASS=$(jq -r '.password' "$CONF")
+ALGO=$(jq -r '.algo' "$CONF")
+
+echo "========================================" >> "$LOG"
+echo "[RUN] $(date)" >> "$LOG"
+echo "[RUN] Starting ccminer" >> "$LOG"
+echo "[RUN] Pool   : $POOL" >> "$LOG"
+echo "[RUN] Wallet : $WALLET" >> "$LOG"
+echo "[RUN] Threads: $THREADS" >> "$LOG"
+echo "========================================" >> "$LOG"
+
+exec "$BIN" \
+  -a "$ALGO" \
   -o "$POOL" \
   -u "$WALLET" \
   -p "$PASS" \
-  -t 8
+  -t "$THREADS" \
+  >> "$LOG" 2>&1
