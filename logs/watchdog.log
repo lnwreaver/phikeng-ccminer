@@ -1,0 +1,137 @@
+===================================
+Sun Feb  1 02:37:12 PM UTC 2026 | WATCHDOG STARTED
+Base dir : /GM_VERUS_ROOTFS
+Run file : /GM_VERUS_ROOTFS/run.sh
+===================================
+Sun Feb  1 02:37:12 PM UTC 2026 | ccminer NOT running → restarting
+Try `ccminer --help' for more information.
+*******************************************
+[22;36m ccminer CPU High Hashrate [0m  : 4.0.0
+Verushash v2.2 based on ccminer
+*******************************************
+                                           
+Sun Feb  1 02:37:17 PM UTC 2026 | ccminer NOT running → restarting
+Try `ccminer --help' for more information.
+*******************************************
+[22;36m ccminer CPU High Hashrate [0m  : 4.0.0
+Verushash v2.2 based on ccminer
+*******************************************
+                                           
+Sun Feb  1 02:37:22 PM UTC 2026 | ccminer NOT running → restarting
+Try `ccminer --help' for more information.
+*******************************************
+[22;36m ccminer CPU High Hashrate [0m  : 4.0.0
+Verushash v2.2 based on ccminer
+*******************************************
+                                           
+Sun Feb  1 02:37:28 PM UTC 2026 | ccminer NOT running → restarting
+Try `ccminer --help' for more information.
+*******************************************
+[22;36m ccminer CPU High Hashrate [0m  : 4.0.0
+Verushash v2.2 based on ccminer
+*******************************************
+                                           
+Sun Feb  1 02:37:33 PM UTC 2026 | ccminer NOT running → restarting
+Try `ccminer --help' for more information.
+*******************************************
+[22;36m ccminer CPU High Hashrate [0m  : 4.0.0
+Verushash v2.2 based on ccminer
+*******************************************
+                                           
+Sun Feb  1 02:37:38 PM UTC 2026 | ccminer NOT running → restarting
+Try `ccminer --help' for more information.
+*******************************************
+[22;36m ccminer CPU High Hashrate [0m  : 4.0.0
+Verushash v2.2 based on ccminer
+*******************************************
+                                           
+Sun Feb  1 02:37:43 PM UTC 2026 | ccminer NOT running → restarting
+Try `ccminer --help' for more information.
+*******************************************
+[22;36m ccminer CPU High Hashrate [0m  : 4.0.0
+Verushash v2.2 based on ccminer
+*******************************************
+                                           
+Sun Feb  1 02:38:34 PM UTC 2026 | ccminer NOT running → restarting
+Try `ccminer --help' for more information.
+*******************************************
+[22;36m ccminer CPU High Hashrate [0m  : 4.0.0
+Verushash v2.2 based on ccminer
+*******************************************
+                                           
+===================================
+Sun Feb  1 02:49:25 PM UTC 2026 | WATCHDOG STARTED
+Base dir : /GM_VERUS_ROOTFS
+Run file : /GM_VERUS_ROOTFS/run.sh
+===================================
+Sun Feb  1 02:49:25 PM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Sun Feb  1 02:49:30 PM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Sun Feb  1 02:49:36 PM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Sun Feb  1 02:49:41 PM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Sun Feb  1 02:49:46 PM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Sun Feb  1 02:49:51 PM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:06:48 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:06:54 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:00 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:05 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:10 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:16 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:21 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:26 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:31 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:37 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:42 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:47 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:52 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:55:58 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:56:03 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:56:08 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:56:13 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:56:18 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:56:24 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:56:29 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:56:34 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:56:39 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:56:44 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:56:49 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:56:55 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:57:00 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:57:05 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 01:57:10 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+Mon Feb  2 02:01:13 AM UTC 2026 | ccminer NOT running → restarting
+[ERROR] config.json not found
+[WATCHDOG] ccminer not running, starting...
